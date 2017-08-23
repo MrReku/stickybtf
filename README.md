@@ -16,7 +16,7 @@ It also possible to specify an offset for both top and bottom of the BTF in orde
 	- bottomOffset 		( default 0 )		: The amount of space left on the bottom when the BTF will reach the bottom limit
 	- responsive 		( default true )	: When plugged within RWD sites using layoutinfo.js it prevents to activate the Sticky functionality on layout other than desktop.
 	- boundaryObserver	( default false )	: When set to true the plugin will monitor any change of boundaryElement that might effect the BTF position 
- ### Usages: ###
+
+### Usages: ###
 
 	`$('#btf-mpu-ad-con').StickyBTF({"boundaryElement": ".l-left", "topOffset": 20, "bottomOffset": 20 });`
-
